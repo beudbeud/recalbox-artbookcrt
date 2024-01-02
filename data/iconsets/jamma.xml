@@ -1,0 +1,20 @@
+﻿<theme>
+	<formatVersion>4</formatVersion>
+	<view name="system, basic, detailed, gameclip">
+		<helpsystem name="help">
+		     <fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<fontSize>7</fontSize>
+			<iconB>../../_assets/buttons/jamma/1.png</iconB>
+			<iconA>../../_assets/buttons/jamma/2.png</iconA>
+			<iconX>../../_assets/buttons/jamma/4.png</iconX>
+			<iconY>../../_assets/buttons/jamma/3.png</iconY>
+			<iconR>../../_assets/buttons/jamma/6.png</iconR>
+			<iconUpDownLeftRight>../../_assets/buttons/jamma/dir-horizontal.png</iconUpDownLeftRight>
+			<iconUpDown>../../_assets/buttons/jamma/dir-vertical.png</iconUpDown>
+			<iconLeftRight>../../_assets/buttons/jamma/dir-horizontal.png</iconLeftRight>
+			<iconStart>../../_assets/buttons/jamma/start.png</iconStart>
+			<iconSelect>../../_assets/buttons/jamma/select.png</iconSelect>
+			<pos>0.02 0.94</pos>
+		</helpsystem>
+	</view>
+</theme>
