@@ -9,7 +9,7 @@ This theme is a mix between two themes of anthonycaccese:
 ## Details
 
 * Has support for system and detailed views
-* 4x3 layout tested on 480p/480i resolutions
+* 4x3 layout tested on 240p and 480p resolutions
 * No arcade and tate mode supported
 
 ## Updates

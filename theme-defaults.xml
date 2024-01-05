@@ -1,15 +1,13 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-
+	
 	<view name="menu">
 		<menuSwitch name="menuswitch">
 		</menuSwitch>
 		<menuSize name="menuSize">
 			<height>0.7</height>
 		</menuSize>
-		<helpsystem name="help">
-		</helpsystem>
 		<menuText name="menufooter">
 			<fontPath>:/f8bitfortressplus.ttf</fontPath>
 			<fontSize>7</fontSize>
@@ -35,8 +33,13 @@
 		</menuText>
 		<menuBackground name="menubg">
 			<color>666666</color>
-    </menuBackground>
-  </view>
+    		</menuBackground>
+    			<helpsystem name="help">
+			<fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<fontSize>7</fontSize>
+			<pos>0.05 0.85</pos>
+		</helpsystem>
+  	</view>
 
   <feature supported="carousel">
     <view name="system">
@@ -81,15 +84,15 @@
       <color>111514BF</color>
     </image>
 
-    <helpsystem name="help">
-      <pos>1 1</pos>
-    </helpsystem>
   </view>
 
   <view name="system, detailed, basic">
     <image name="logo">
       <path>./_assets/img/systems_logos/$system.svg</path>
-    </image>  
+    </image>
+    <helpsystem name="help">
+    	<pos>0.02 0.93</pos>
+    </helpsystem>
   </view>
 
   <view name="system">
@@ -98,6 +101,7 @@
       <pos>0.5 0.5</pos>
       <size>0 1</size>
       <color>ffffffcc</color>
+      <path>./_assets/img/systems_covers/_default.png</path>
       <path>./_assets/img/systems_covers/$system.png</path>
       <zIndex>1</zIndex>
     </image>			
@@ -113,6 +117,14 @@
     <text name="systemInfo">
       <pos>1 1</pos>
     </text>
+    
+    <text name="logoText">
+      <color>eaeaea</color>
+      <fontPath>:/f8bitfortressplus.ttf</fontPath>
+      <fontSize>8</fontSize>
+      <forceUppercase>1</forceUppercase>
+      <lineSpacing>2</lineSpacing> 
+      </text>
   </view>
 
   <view name="detailed, basic">
@@ -123,7 +135,7 @@
     </image>
     <textlist name="gamelist">
       <pos>0.1875 0.1958333333333333</pos>
-      <size>0.625 0.6944444444444444</size>
+      <size>0.625 0.5944444444444444</size>
       <selectorColor>1c1c1caa</selectorColor>
       <selectedColor>bba358</selectedColor>
       <primaryColor>eaeaea</primaryColor>
@@ -140,7 +152,7 @@
     <textlist name="gamelist">
       <alignment>left</alignment>
       <pos>0.5 0.18</pos>
-      <size>0.49 0.745</size>
+      <size>0.47 0.69</size>
     </textlist>
     <image name="logo">
       <origin>0 0</origin>
@@ -150,14 +162,14 @@
       <path>./_assets/img/systems_logos/$system.svg</path>
     </image>
     <video name="md_video">
-      <pos>0.035 0.20</pos>
+      <pos>0.065 0.20</pos>
       <maxSize>0.38 0.38</maxSize>
       <size>0.38 0.38</size>
       <origin>0 0</origin>
       <zIndex>80</zIndex>
     </video>
     <image name="md_image">
-      <pos>0.035 0.20</pos>
+      <pos>0.065 0.20</pos>
       <maxSize>0.38 0.38</maxSize>
       <size>0.38 0.38</size>
       <origin>0 0</origin>
@@ -165,14 +177,14 @@
     </image>
     <image name="crt-bezel" extra="true">
       <origin>0 0</origin>
-      <pos>0.02 0.18</pos>
+      <pos>0.05 0.18</pos>
       <size>0.42 0.42</size>
       <path>./_assets/img/crt-bezel.svg</path>
       <zIndex>100</zIndex>
     </image>
     <image name="crt-screen" extra="true">
       <origin>0 0</origin>
-      <pos>0.02 0.18</pos>
+      <pos>0.05 0.18</pos>
       <size>0.42 0.42</size>
       <path>./_assets/img/crt-screen.svg</path>
       <zIndex>60</zIndex>
@@ -181,7 +193,7 @@
     <rating name="md_rating">
       <filledPath>./_assets/img/star_filled.svg</filledPath>
       <unfilledPath>./_assets/img/star_empty.svg</unfilledPath>
-      <pos>0.02 0.62</pos>
+      <pos>0.05 0.62</pos>
     </rating>
 
     <text name="md_lbl_players">
@@ -189,7 +201,7 @@
       <fontSize>7</fontSize>
       <forceUppercase>1</forceUppercase>
       <size>0.15 0.02</size>
-      <pos>0.02 0.695</pos>
+      <pos>0.05 0.695</pos>
       <color>666666</color>
     </text>
 
@@ -199,7 +211,7 @@
       <forceUppercase>1</forceUppercase>
       <size>0.144 0.02</size>
       <color>666666</color>
-      <pos>0.18 0.6950</pos>
+      <pos>0.20 0.6950</pos>
     </text>
 
     <text name="md_genre">
@@ -207,19 +219,12 @@
 			<fontSize>6</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.02</size>
-			<pos>0.02 0.74</pos>
-			<color>666666</color>
-		</text>
-
-    <text name="md_description">
-			<fontPath>:/f8bitfortressplus.ttf</fontPath>
-			<fontSize>6</fontSize>
-			<color>cfcfcf</color>
-			<size>0.45 0.145</size>
-			<pos>0.02 0.78</pos>
+			<pos>0.05 0.74</pos>
 			<color>666666</color>
 		</text>
 
   </view>
+  
+  
 
 </theme>
