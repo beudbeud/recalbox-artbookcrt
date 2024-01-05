@@ -14,9 +14,19 @@ This theme is a mix between two themes of anthonycaccese:
 
 ## Updates
 
-02/01/2024
+v0.0.2
 
+```
+* Fix menu help
+* Add arcade constructor
+* fix border
+```
+
+v0.0.1
+
+```
 * First release
+```
 
 ## Preview
 
