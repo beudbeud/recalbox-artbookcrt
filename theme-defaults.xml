@@ -1,7 +1,7 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	
+
 	<view name="menu">
 		<menuSwitch name="menuswitch">
 		</menuSwitch>
@@ -33,198 +33,193 @@
 		</menuText>
 		<menuBackground name="menubg">
 			<color>666666</color>
-    		</menuBackground>
-    			<helpsystem name="help">
+		</menuBackground>
+		<helpsystem name="help">
+		</helpsystem>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<type>horizontal</type>
+				<color>00000000</color>
+				<size>1 1</size>
+				<logoScale>2</logoScale>
+				<logoSize>0.25 0.15</logoSize>
+				<maxLogoCount>1.5</maxLogoCount>
+			</carousel>
+		</view>
+	</feature>
+
+	<view name="menu, system, basic, detailed">
+		<image name="background_color" extra="true">
+			<path>./_assets/img/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>111514</color>
+			<zIndex>0</zIndex>
+		</image>
+
+		<image name="background_pattern" extra="true">
+			<path>./_assets/img/bg_pattern.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<color>aeaeae</color>
+			<tile>true</tile>
+			<zIndex>0</zIndex>
+		</image>
+
+		<helpsystem name="help">
+			<fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontSize>7</fontSize>
+			<pos>0.05 0.9</pos>
+		</helpsystem>
+	</view>
+
+	<view name="system, detailed, basic">
+		<image name="logo">
+			<path>./_assets/img/systems_logos/$system.svg</path>
+		</image>
+	</view>
+
+	<view name="system">
+		<image name="bg" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>0 1</size>
+			<color>ffffffcc</color>
+			<path>./_assets/img/systems_covers/_default.png</path>
+			<path>./_assets/img/systems_covers/$system.png</path>
+			<zIndex>1</zIndex>
+		</image>
+		<image name="background-art-mask"  extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>1 1</size>
+			<zIndex>0</zIndex>
+			<color>111111</color>
+			<path>./_assets/img/bg_mask.png</path>
+		</image>
+
+		<text name="systemInfo">
+			<pos>1 1</pos>
+		</text>
+
+		<text name="logoText">
+			<color>eaeaea</color>
+			<fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<fontSize>8</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<lineSpacing>2</lineSpacing>
+		</text>
+
+		<sound name="directory">
+			<path>../recalbox-next/music</path>
+		</sound>
+	</view>
+
+	<view name="detailed, basic">
+		<image name="logo">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.0694444444444444</pos>
+			<maxSize>0.234375 0.0555555555555556</maxSize>
+		</image>
+		<textlist name="gamelist">
+			<pos>0.1875 0.1958333333333333</pos>
+			<size>0.625 0.5944444444444444</size>
+			<selectorColor>1c1c1caa</selectorColor>
+			<selectedColor>bba358</selectedColor>
+			<primaryColor>eaeaea</primaryColor>
+			<secondaryColor>eaeaea</secondaryColor>
+			<fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<fontSize>8</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<lineSpacing>2</lineSpacing>
+			<alignment>center</alignment>
+		</textlist>
+	</view>
+
+	<view name="detailed,video">
+		<textlist name="gamelist">
+			<alignment>left</alignment>
+			<pos>0.5 0.18</pos>
+			<size>0.47 0.69</size>
+		</textlist>
+
+		<image name="logo">
+			<origin>0 0</origin>
+			<pos>0.35 0.05</pos>
+			<size>0.30 0.11</size>
+			<maxSize>0.30 0.11</maxSize>
+			<path>./_assets/img/systems_logos/$system.svg</path>
+		</image>
+		<video name="md_video">
+			<pos>0.065 0.20</pos>
+			<maxSize>0.38 0.38</maxSize>
+			<size>0.38 0.38</size>
+			<origin>0 0</origin>
+			<zIndex>80</zIndex>
+		</video>
+		<image name="md_image">
+			<pos>0.065 0.20</pos>
+			<maxSize>0.38 0.38</maxSize>
+			<size>0.38 0.38</size>
+			<origin>0 0</origin>
+			<zIndex>90</zIndex>
+		</image>
+		<image name="crt-bezel" extra="true">
+			<origin>0 0</origin>
+			<pos>0.05 0.18</pos>
+			<size>0.42 0.42</size>
+			<path>./_assets/img/crt-bezel.svg</path>
+			<zIndex>100</zIndex>
+		</image>
+		<image name="crt-screen" extra="true">
+			<origin>0 0</origin>
+			<pos>0.05 0.18</pos>
+			<size>0.42 0.42</size>
+			<path>./_assets/img/crt-screen.svg</path>
+			<zIndex>60</zIndex>
+		</image>
+
+		<rating name="md_rating">
+			<filledPath>./_assets/img/star_filled.svg</filledPath>
+			<unfilledPath>./_assets/img/star_empty.svg</unfilledPath>
+			<pos>0.05 0.62</pos>
+		</rating>
+
+		<text name="md_lbl_players">
 			<fontPath>:/f8bitfortressplus.ttf</fontPath>
 			<fontSize>7</fontSize>
-			<pos>0.05 0.85</pos>
-		</helpsystem>
-  	</view>
+			<forceUppercase>1</forceUppercase>
+			<size>0.15 0.02</size>
+			<pos>0.05 0.695</pos>
+			<color>666666</color>
+		</text>
 
-  <feature supported="carousel">
-    <view name="system">
-      <carousel name="systemcarousel">
-        <origin>0 0</origin>
-        <pos>0 0</pos>
-        <type>horizontal</type>
-        <color>00000000</color>
-        <size>1 1</size>
-        <logoScale>2</logoScale>
-        <logoSize>0.25 0.15</logoSize>
-        <maxLogoCount>1.5</maxLogoCount>
-      </carousel>
-    </view>
-  </feature>
-
-  <view name="menu, system, basic, detailed">
-    <image name="background_color" extra="true">
-      <path>./_assets/img/bg_color.png</path>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <size>1 1</size>
-      <color>111514</color>
-      <zIndex>0</zIndex>
-    </image>
-
-    <image name="background_pattern" extra="true">
-      <path>./_assets/img/bg_pattern.png</path>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <size>1 1</size>
-      <color>aeaeae</color>
-      <tile>true</tile>
-      <zIndex>0</zIndex>
-    </image>
-
-    <image name="background_help" extra="true">
-      <path>./_assets/img/bg_color.png</path>
-      <origin>0 1</origin>
-      <pos>0 1</pos>
-      <size>1 0.070</size>
-      <color>111514BF</color>
-    </image>
-
-  </view>
-
-  <view name="system, detailed, basic">
-    <image name="logo">
-      <path>./_assets/img/systems_logos/$system.svg</path>
-    </image>
-    <helpsystem name="help">
-    	<pos>0.02 0.93</pos>
-    </helpsystem>
-  </view>
-
-  <view name="system">
-    <image name="bg" extra="true">
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <size>0 1</size>
-      <color>ffffffcc</color>
-      <path>./_assets/img/systems_covers/_default.png</path>
-      <path>./_assets/img/systems_covers/$system.png</path>
-      <zIndex>1</zIndex>
-    </image>			
-    <image name="background-art-mask"  extra="true">
-      <origin>0.5 0</origin>
-      <pos>0.5 0</pos>
-      <size>1 1</size>
-      <zIndex>0</zIndex>
-      <color>111111</color>
-      <path>./_assets/img/bg_mask.png</path>
-    </image> 
-
-    <text name="systemInfo">
-      <pos>1 1</pos>
-    </text>
-    
-    <text name="logoText">
-      <color>eaeaea</color>
-      <fontPath>:/f8bitfortressplus.ttf</fontPath>
-      <fontSize>8</fontSize>
-      <forceUppercase>1</forceUppercase>
-      <lineSpacing>2</lineSpacing> 
-      </text>
-  </view>
-
-  <view name="detailed, basic">
-    <image name="logo">
-      <origin>0.5 0</origin>
-      <pos>0.5 0.0694444444444444</pos>
-      <maxSize>0.234375 0.0555555555555556</maxSize>
-    </image>
-    <textlist name="gamelist">
-      <pos>0.1875 0.1958333333333333</pos>
-      <size>0.625 0.5944444444444444</size>
-      <selectorColor>1c1c1caa</selectorColor>
-      <selectedColor>bba358</selectedColor>
-      <primaryColor>eaeaea</primaryColor>
-      <secondaryColor>eaeaea</secondaryColor>
-      <fontPath>:/f8bitfortressplus.ttf</fontPath>
-      <fontSize>8</fontSize>
-      <forceUppercase>1</forceUppercase>
-      <lineSpacing>2</lineSpacing> 
-      <alignment>center</alignment>
-    </textlist>
-  </view>
-
-  <view name="detailed,video">
-    <textlist name="gamelist">
-      <alignment>left</alignment>
-      <pos>0.5 0.18</pos>
-      <size>0.47 0.69</size>
-    </textlist>
-    <image name="logo">
-      <origin>0 0</origin>
-      <pos>0.35 0.05</pos>
-      <size>0.30 0.11</size>
-      <maxSize>0.30 0.11</maxSize>
-      <path>./_assets/img/systems_logos/$system.svg</path>
-    </image>
-    <video name="md_video">
-      <pos>0.065 0.20</pos>
-      <maxSize>0.38 0.38</maxSize>
-      <size>0.38 0.38</size>
-      <origin>0 0</origin>
-      <zIndex>80</zIndex>
-    </video>
-    <image name="md_image">
-      <pos>0.065 0.20</pos>
-      <maxSize>0.38 0.38</maxSize>
-      <size>0.38 0.38</size>
-      <origin>0 0</origin>
-      <zIndex>90</zIndex>
-    </image>
-    <image name="crt-bezel" extra="true">
-      <origin>0 0</origin>
-      <pos>0.05 0.18</pos>
-      <size>0.42 0.42</size>
-      <path>./_assets/img/crt-bezel.svg</path>
-      <zIndex>100</zIndex>
-    </image>
-    <image name="crt-screen" extra="true">
-      <origin>0 0</origin>
-      <pos>0.05 0.18</pos>
-      <size>0.42 0.42</size>
-      <path>./_assets/img/crt-screen.svg</path>
-      <zIndex>60</zIndex>
-    </image>
-
-    <rating name="md_rating">
-      <filledPath>./_assets/img/star_filled.svg</filledPath>
-      <unfilledPath>./_assets/img/star_empty.svg</unfilledPath>
-      <pos>0.05 0.62</pos>
-    </rating>
-
-    <text name="md_lbl_players">
-      <fontPath>:/f8bitfortressplus.ttf</fontPath>
-      <fontSize>7</fontSize>
-      <forceUppercase>1</forceUppercase>
-      <size>0.15 0.02</size>
-      <pos>0.05 0.695</pos>
-      <color>666666</color>
-    </text>
-
-    <text name="md_players">
-      <fontPath>:/f8bitfortressplus.ttf</fontPath>
-      <fontSize>7</fontSize>
-      <forceUppercase>1</forceUppercase>
-      <size>0.144 0.02</size>
-      <color>666666</color>
-      <pos>0.20 0.6950</pos>
-    </text>
-
-    <text name="md_genre">
+		<text name="md_players">
 			<fontPath>:/f8bitfortressplus.ttf</fontPath>
-			<fontSize>6</fontSize>
+			<fontSize>7</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.144 0.02</size>
+			<color>666666</color>
+			<pos>0.20 0.6950</pos>
+		</text>
+
+		<text name="md_genre">
+			<fontPath>:/f8bitfortressplus.ttf</fontPath>
+			<fontSize>7</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.02</size>
 			<pos>0.05 0.74</pos>
 			<color>666666</color>
 		</text>
 
-  </view>
-  
-  
-
+	</view>
 </theme>

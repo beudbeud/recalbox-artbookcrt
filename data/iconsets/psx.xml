@@ -14,7 +14,6 @@
 			<iconLeftRight>../../_assets/buttons/psx/dir-horizontal.png</iconLeftRight>
 			<iconStart>../../_assets/buttons/psx/start.png</iconStart>
 			<iconSelect>../../_assets/buttons/psx/select.png</iconSelect>
-			<pos>0.02 0.94</pos>
 		</helpsystem>
 	</view>
 </theme>

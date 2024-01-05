@@ -1,5 +1,5 @@
 <theme>
-    <formatVersion>4</formatVersion>
+	<formatVersion>4</formatVersion>
 
 	<include subset="iconset" name="1-snes">./iconsets/snes.xml</include>
 	<include subset="iconset" name="2-xbox">./iconsets/xbox.xml</include>
