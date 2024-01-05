@@ -132,7 +132,7 @@
 		</image>
 		<textlist name="gamelist">
 			<pos>0.1875 0.1958333333333333</pos>
-			<size>0.625 0.5944444444444444</size>
+			<size>0.625 0.69</size>
 			<selectorColor>1c1c1caa</selectorColor>
 			<selectedColor>bba358</selectedColor>
 			<primaryColor>eaeaea</primaryColor>
@@ -149,7 +149,7 @@
 		<textlist name="gamelist">
 			<alignment>left</alignment>
 			<pos>0.5 0.18</pos>
-			<size>0.47 0.69</size>
+			<size>0.45 0.69</size>
 		</textlist>
 
 		<image name="logo">
