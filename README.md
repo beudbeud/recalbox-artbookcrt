@@ -19,7 +19,8 @@ v0.0.2
 ```
 * Fix menu help
 * Add arcade constructor
-* fix border
+* Add 240p suite
+* Fix border
 ```
 
 v0.0.1
