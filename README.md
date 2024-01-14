@@ -10,9 +10,28 @@ This theme is a mix between two themes of anthonycaccese:
 
 * Has support for system and detailed views
 * 4x3 layout tested on 240p and 480p resolutions
-* No arcade and tate mode supported
+* Arcade and tate mode supported
+* All category and manufactor logo
+
+! Still missing some category and manufactor covers !
+
+
+## Compatibility
+
+Recalbox <9 : No tested
+Recalbox >9 : OK
 
 ## Updates
+
+v0.0.3
+
+```
+* Add genre logo
+* Add manufactor logo
+* Add missing system logo
+* Add support tate
+* Some little fix
+```
 
 v0.0.2
 
@@ -31,9 +50,9 @@ v0.0.1
 
 ## Preview
 
-![system](https://i.ibb.co/f8N7PBS/screenshot-2024-01-01-T22-08-00-041-Z.png)
-![game](https://i.ibb.co/xgryK9f/screenshot-2024-01-01-T22-08-51-539-Z.png)
-![menu](https://i.ibb.co/wJNt9qN/screenshot-2024-01-01-T22-08-29-696-Z.png)
+<img src="https://i.ibb.co/Nts6NVs/screenshot-2024-01-14-T20-47-44-437-Z.png" width="320" height="240"><img src="https://i.ibb.co/M1pt1L0/screenshot-2024-01-14-T21-06-12-466-Z.png" width="320" height="240"><img src="https://i.ibb.co/sKYpFh3/screenshot-2024-01-14-T20-47-25-022-Z.png" width="320" height="240"><img src="https://i.ibb.co/JK9khkf/screenshot-2024-01-14-T20-47-53-910-Z.png" width="320" height="240">
+<img src="https://i.ibb.co/gVL7HGH/screenshot-2024-01-14-T20-53-13-268-Z.png" width="240" height="320">
+
 
 ## Credits
 
