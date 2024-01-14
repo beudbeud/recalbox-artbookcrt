@@ -1,0 +1,13 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	<view name="detailed,video">
+		<image name="crt-bezel" extra="true">
+			<path>../../_assets/img/crt-bezel-tate.svg</path>
+		</image>
+
+		<image name="crt-screen" extra="true">
+			<path>../../_assets/img/crt-screen-tate.svg</path>
+		</image>
+	</view>
+</theme>

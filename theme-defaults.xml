@@ -187,14 +187,12 @@
 			<origin>0 0</origin>
 			<pos>0.05 0.18</pos>
 			<size>0.42 0.42</size>
-			<path>./_assets/img/crt-bezel.svg</path>
 			<zIndex>100</zIndex>
 		</image>
 		<image name="crt-screen" extra="true">
 			<origin>0 0</origin>
 			<pos>0.05 0.18</pos>
 			<size>0.42 0.42</size>
-			<path>./_assets/img/crt-screen.svg</path>
 			<zIndex>60</zIndex>
 		</image>
 
