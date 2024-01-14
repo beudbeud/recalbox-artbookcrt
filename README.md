@@ -23,6 +23,12 @@ Recalbox >9 : OK
 
 ## Updates
 
+v0.0.4
+
+```
+* Fix system view
+```
+
 v0.0.3
 
 ```

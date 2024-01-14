@@ -70,7 +70,7 @@
 			<size>1 1</size>
 			<color>aeaeae</color>
 			<tile>true</tile>
-			<zIndex>0</zIndex>
+			<zIndex>1</zIndex>
 		</image>
 
 		<helpsystem name="help">
@@ -107,15 +107,6 @@
 	</view>
 
 	<view name="system">
-		<image name="bg" extra="true">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<size>0 1</size>
-			<color>ffffffcc</color>
-			<path>./_assets/img/systems_covers/_default.png</path>
-			<path>./_assets/img/systems_covers/$system.png</path>
-			<zIndex>1</zIndex>
-		</image>
 		<image name="background-art-mask"  extra="true">
 			<origin>0.5 0</origin>
 			<pos>0.5 0</pos>
@@ -123,7 +114,21 @@
 			<zIndex>0</zIndex>
 			<color>111111</color>
 			<path>./_assets/img/bg_mask.png</path>
+			<zIndex>2</zIndex>
 		</image>
+		<image name="bg" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>0 1</size>
+			<color>ffffffcc</color>
+			<path>./_assets/img/systems_covers/_default.png</path>
+			<path>./_assets/img/systems_covers/$system.png</path>
+			<zIndex>3</zIndex>
+		</image>
+		<image name="logo">
+			<zIndex>4</zIndex>
+		</image>
+
 
 		<text name="systemInfo">
 			<pos>1 1</pos>
