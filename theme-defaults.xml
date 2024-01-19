@@ -238,7 +238,7 @@
 
 	</view>
 
+	<include>./data/override/default.xml</include>
 	<include if="tate">./data/override/tate.xml</include>
 	<include if="jamma">./data/override/jamma.xml</include>
-	<include>./data/override/default.xml</include>
 </theme>
