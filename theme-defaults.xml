@@ -182,7 +182,7 @@
 			<zIndex>60</zIndex>
 		</image>
 		<image name="md_image">
-			<path>../../_assets/img/crt-screen.svg</path>
+			<path>./_assets/img/crt-screen.svg</path>
 			<pos>0.065 0.20</pos>
 			<maxSize>0.38 0.38</maxSize>
 			<size>0.38 0.38</size>
@@ -197,7 +197,7 @@
 			<zIndex>90</zIndex>
 		</video>
 		<image name="crt-bezel" extra="true">
-			<path>../../_assets/img/crt-bezel.svg</path>
+			<path>./_assets/img/crt-bezel.svg</path>
 			<origin>0 0</origin>
 			<pos>0.05 0.18</pos>
 			<size>0.42 0.42</size>
