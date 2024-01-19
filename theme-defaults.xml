@@ -194,6 +194,7 @@
 			<size>0.38 0.38</size>
 			<origin>0 0</origin>
 			<zIndex>90</zIndex>
+			<animations>none</animations>
 		</video>
 		<image name="crt-bezel" extra="true">
 			<origin>0 0</origin>
@@ -237,7 +238,7 @@
 
 	</view>
 
-	<include>./data/override/default.xml</include>
 	<include if="tate">./data/override/tate.xml</include>
 	<include if="jamma">./data/override/jamma.xml</include>
+	<include>./data/override/default.xml</include>
 </theme>
