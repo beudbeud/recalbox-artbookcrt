@@ -49,6 +49,7 @@
 				<logoScale>2</logoScale>
 				<logoSize>0.25 0.15</logoSize>
 				<maxLogoCount>1.5</maxLogoCount>
+				<defaultTransition>slide</defaultTransition>
 			</carousel>
 		</view>
 	</feature>
