@@ -10,7 +10,7 @@ This theme is a mix between two themes of anthonycaccese:
 
 * Has support for system and detailed views
 * 4x3 layout tested on 240p and 480p resolutions
-* Arcade and tate mode supported
+* Arcade and tate mode supported (need configure)
 * All category and manufactor logo
 
 ! Still missing some category and manufactor covers !
