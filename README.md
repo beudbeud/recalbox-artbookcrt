@@ -1,4 +1,4 @@
-# artbookcrt-240p
+# Artbook CRT 240p
 
 A simple theme for the version of EmulationStation used in Recalbox.
 
