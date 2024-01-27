@@ -119,7 +119,7 @@
 		<image name="bg" extra="true">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<size>0 1</size>
+			<size>0.3 1</size>
 			<color>ffffffcc</color>
 			<path>./_assets/img/systems_covers/_default.png</path>
 			<path>./_assets/img/systems_covers/$system.png</path>
