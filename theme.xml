@@ -1,4 +1,4 @@
-<theme>
+<theme name="Artbook CRT 240p" version="9.2" compatibility="crt,jamma,tate">
 	<formatVersion>4</formatVersion>
 	<include>./theme-defaults.xml</include>
 	<include>./data/config.xml</include>
