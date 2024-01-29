@@ -10,4 +10,9 @@
 			<path>../../_assets/img/crt-screen-tate.svg</path>
 		</image>
 	</view>
+	<view name="system">
+		<image name="bg" extra="true">
+			<size>0.4 1</size>
+		</image>
+	</view>
 </theme>
