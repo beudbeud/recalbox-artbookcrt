@@ -19,7 +19,7 @@ This theme is a mix between two themes of anthonycaccese:
 ## Compatibility
 
 
-Recalbox >9 : OK
+Recalbox >9.2 : OK
 
 
 ## Updates
