@@ -24,6 +24,12 @@ Recalbox >9 : OK
 
 ## Updates
 
+v1.0.0
+
+```
+* Add new virtual system
+```
+
 v0.0.4
 
 ```
