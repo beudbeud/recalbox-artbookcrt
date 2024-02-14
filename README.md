@@ -24,6 +24,15 @@ Recalbox >9.2 : OK
 
 ## Updates
 
+v2.0
+
+```
+* Add auto tate configuration
+* Add auto jamma configuration
+* fix issue
+
+```
+
 v1.0.0
 
 ```
