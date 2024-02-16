@@ -17,10 +17,9 @@ This theme is a mix between two themes of anthonycaccese:
 
 
 ## Compatibility
-
-
-Recalbox >9.2 : OK
-
+- Recalbox > 9.2
+- CRT / JAMMA 240/480p
+- TATE
 
 ## Updates
 
