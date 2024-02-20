@@ -27,7 +27,6 @@ v2.1
 
 ```
 * fix sub folder mame
-
 ```
 
 v2.0
@@ -36,7 +35,6 @@ v2.0
 * Add auto tate configuration
 * Add auto jamma configuration
 * fix issue
-
 ```
 
 v1.0.0
