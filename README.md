@@ -23,6 +23,13 @@ This theme is a mix between two themes of anthonycaccese:
 
 ## Updates
 
+v2.1
+
+```
+* fix sub folder mame
+
+```
+
 v2.0
 
 ```
