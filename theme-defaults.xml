@@ -143,7 +143,8 @@
 		<image name="logo">
 			<origin>0.5 0</origin>
 			<pos>0.5 0.0694444444444444</pos>
-			<maxSize>0.234375 0.0555555555555556</maxSize>
+			<keepratio>1</keepratio>
+			<size>0.234375 0.0555555555555556</size>
 		</image>
 		<textlist name="gamelist">
 			<pos>0.1875 0.1958333333333333</pos>
@@ -244,7 +245,17 @@
 			<color>666666</color>
 		</text>
 
-
+		<image name="md_folder_image_0" pos="0.15 0.25"/>
+		<image name="md_folder_image_1" pos="0.37 0.25"/>
+		<image name="md_folder_image_2" pos="0.15 0.38"/>
+		<image name="md_folder_image_3" pos="0.37 0.38"/>
+		<image name="md_folder_image_4" pos="0.15 0.50"/>
+		<image name="md_folder_image_5" pos="0.35 0.50"/>
+		<image name="md_folder_image_6" pos="1 1" origin="0 0"/>
+		<image name="md_folder_image_7" pos="1 1" origin="0 0"/>
+		<image name="md_folder_image_8" pos="1 1" origin="0 0"/>
+		<image name="md_folder_image_0, md_folder_image_1, md_folder_image_2, md_folder_image_3, md_folder_image_4, md_folder_image_5" origin="0.5 0.5" maxSize="0.15 0.2" zIndex="80"/>
+		<text name="md_folder_name" pos="0.37 0.50" size="0.4 0.023" fontSize="0.03" fontPath="/f8bitfortressplus.ttf" forceUppercase="1"/>
 	</view>
 
 	<include>./data/override/default.xml</include>
