@@ -23,6 +23,12 @@ This theme is a mix between two themes of anthonycaccese:
 
 ## Updates
 
+v2.2
+
+```
+* fix help icon
+```
+
 v2.1
 
 ```
