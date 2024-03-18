@@ -23,6 +23,12 @@ This theme is a mix between two themes of anthonycaccese:
 
 ## Updates
 
+v2.3
+
+```
+* fix gameclip
+```
+
 v2.2
 
 ```

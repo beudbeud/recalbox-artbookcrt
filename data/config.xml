@@ -7,4 +7,5 @@
 	<include subset="iconset" name="4-arcade">./iconsets/arcade.xml</include>
 	<include subset="iconset" name="5-jamma">./iconsets/jamma.xml</include>
 
+	<include subset="gameclipview" name="0 - default">./gameclip.xml</include>
 </theme>
