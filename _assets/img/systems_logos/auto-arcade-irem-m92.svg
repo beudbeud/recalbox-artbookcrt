@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.88 118.56">
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <g>
+        <path d="m113.46,118.56v-32.08h13.75v4.59h4.58v-4.59h13.75v32.08h-13.75v-9.17h-4.58v9.17h-13.75Zm27.49-4.58v-22.91h-4.58v4.58h-4.58v4.58h-4.58v-4.58h-4.58v-4.58h-4.58v22.91h4.58v-13.75h4.58v4.58h4.58v-4.58h4.58v13.75h4.58Z" style="fill: #fff; stroke-width: 0px;"/>
+        <path d="m150.13,118.56v-32.08h32.08v32.08h-32.08Zm27.49-4.58v-22.91h-22.91v13.75h18.33v4.58h-18.33v4.58h22.91Zm-18.33-13.75v-4.58h13.75v4.58h-13.75Z" style="fill: #fff; stroke-width: 0px;"/>
+        <path d="m186.8,118.56v-32.08h32.08v32.08h-32.08Zm27.49-4.58v-4.58h-18.33v-4.58h18.33v-13.75h-22.91v4.58h18.33v4.58h-18.33v13.75h22.91Z" style="fill: #fff; stroke-width: 0px;"/>
+      </g>
+      <path d="m82.21,29.38h133.78v51.85H82.21V29.38Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 5px;"/>
+      <path d="m3.31,2.5h24.96v25.28H3.31V2.5Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 5px;"/>
+      <path d="m2.67,28.9h26.08v51.85H2.67V28.9Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 5px;"/>
+      <polygon points="82.05 28.26 51.8 28.26 51.8 29.22 29.72 29.22 29.72 81.07 55.48 81.07 55.48 54.19 82.05 54.19 82.05 28.26" style="fill: none; stroke: #fff; stroke-miterlimit: 10;"/>
+      <g>
+        <path d="m2.5,2.58v78.75l53.08.39v-26.44h26.44v26.44h133.76V28.64H28.56V2.58H2.5Z" style="fill: none; stroke: #fff; stroke-miterlimit: 14.01; stroke-width: 5px;"/>
+        <path d="m2.05,28.52h26.44v52.12m53.52-51.74v26.38m19.5-8.88h14.48m-14.86,18.34h34.36m.77-35.9v52.31m25.86-26.25v26.06m26.25-25.86v26.06" style="fill: none; stroke: #fff; stroke-miterlimit: 14.01; stroke-width: 5px;"/>
+      </g>
+    </g>
+  </g>
+</svg>
