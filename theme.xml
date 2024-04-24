@@ -1,4 +1,4 @@
-<theme name="Artbook CRT 240p" version="2.4" recalbox="9.2" compatibility="crt,jamma,tate,hdmi" resolutions="qvga,vga">
+<theme name="Artbook CRT 240p" version="2.5" recalbox="9.2" compatibility="crt,jamma,tate,hdmi" resolutions="qvga,vga">
 	<formatVersion>4</formatVersion>
 	<include>./theme-defaults.xml</include>
 	<include>./data/config.xml</include>

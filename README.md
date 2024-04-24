@@ -23,6 +23,12 @@ This theme is a mix between two themes of anthonycaccese:
 
 ## Updates
 
+v2.5
+
+```
+* Add Raizing
+```
+
 v2.4
 
 ```
