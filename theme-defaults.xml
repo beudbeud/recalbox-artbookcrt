@@ -79,7 +79,8 @@
 			<textColor>ffffff</textColor>
 			<iconColor>ffffff</iconColor>
 			<fontSize>7</fontSize>
-			<pos>0.05 0.9</pos>
+			<pos>0.05 0.935</pos>
+			<size>0.9 0.5</size>
 		</helpsystem>
 	</view>
 
@@ -145,6 +146,7 @@
 			<pos>0.5 0.0694444444444444</pos>
 			<keepratio>1</keepratio>
 			<size>0.234375 0.0555555555555556</size>
+			<zIndex>80</zIndex>
 		</image>
 		<textlist name="gamelist">
 			<pos>0.1875 0.1958333333333333</pos>
@@ -168,31 +170,33 @@
 			<size>0.45 0.69</size>
 		</textlist>
 
-		<image name="logo">
+		<image name="logo" extra="true">
 			<origin>0 0</origin>
 			<pos>0.35 0.05</pos>
 			<size>0.30 0.11</size>
 			<maxSize>0.30 0.11</maxSize>
+			<keepratio>1</keepratio>
+			<zIndex>80</zIndex>
 			<path>./_assets/img/systems_logos/$system.svg</path>
 		</image>
 		<image name="crt-screen" extra="true">
 			<pos>0.065 0.20</pos>
-			<maxSize>0.38 0.38</maxSize>
 			<size>0.38 0.38</size>
+			<keepratio>1</keepratio>
 			<origin>0 0</origin>
 			<zIndex>60</zIndex>
 		</image>
 		<image name="md_image">
 			<pos>0.065 0.20</pos>
-			<maxSize>0.38 0.38</maxSize>
-			<size>0.38 0.38</size>
+			<size>0.392 0.38</size>
+			<keepratio>0</keepratio>
 			<origin>0 0</origin>
 			<zIndex>80</zIndex>
 		</image>
 		<video name="md_video">
 			<pos>0.065 0.20</pos>
-			<maxSize>0.38 0.38</maxSize>
-			<size>0.38 0.38</size>
+			<maxSize>0.392 0.38</maxSize>
+			<size>0.392 0.38</size>
 			<origin>0 0</origin>
 			<zIndex>90</zIndex>
 			<animations>none</animations>
@@ -214,7 +218,7 @@
 			<fontPath>:/f8bitfortressplus.ttf</fontPath>
 			<fontSize>7</fontSize>
 			<forceUppercase>1</forceUppercase>
-			<size>0.15 0.02</size>
+			<size>0.15 0.03</size>
 			<pos>0.05 0.695</pos>
 			<color>666666</color>
 		</text>
@@ -223,7 +227,7 @@
 			<fontPath>:/f8bitfortressplus.ttf</fontPath>
 			<fontSize>7</fontSize>
 			<forceUppercase>1</forceUppercase>
-			<size>0.144 0.02</size>
+			<size>0.144 0.03</size>
 			<color>666666</color>
 			<pos>0.20 0.6950</pos>
 		</text>
